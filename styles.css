@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --background: #ffffff;
+  --foreground: #00051a;
+  --accent: #2645ba;
+}
+
+h1 {
+  font-size: 52px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+}
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+  color: var(--foreground);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat, sans-serif;
+  color: var(--foreground);
+}
+
+.wrapper {
+  width: 75%;
+  margin: 30px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  max-width: 340px;
+  max-height: 100px;
+}
+
+.links {
+  display: flex;
+  gap: 30px;
+}
+
+.links a {
+  text-decoration: none;
+  color: var(--foreground);
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: flex-start;
+  align-items: flex-start; /* corrected from 'left' */
+  padding: 150px 50px; /* reduce padding if too much */
+  background-image: url("images/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: saturate(150%);
+}
+
+.cta {
+  background-color: var(--accent);
+  padding: 5px 20px;
+  text-decoration: none;
+  color: var(--background);
+  font-weight: 500;
+  border-radius: 20px;
+}
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.about-us .top {
+  display: flex;
+  gap: 20px;
+}
+
+.about-us .top > * {
+  flex: 1;
+}
+
+.about-us .bottom {
+  text-align: center;
+  background-color: var(--accent);
+  padding: 40px;
+}
+
+.about-us .bottom * {
+  color: var(--background);
+}
