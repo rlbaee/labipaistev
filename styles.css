@@ -241,6 +241,22 @@ textarea::placeholder {
   font-weight: 400;
 }
 
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+footer .right {
+  display: flex;
+  gap: 1rem;
+}
+
+footer .right a {
+  width: 30px;
+}
+
 @keyframes scroll {
   to {
     transform: translateX(calc(-100% - 2rem));

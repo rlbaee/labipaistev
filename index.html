@@ -16,6 +16,8 @@
       src="https://kit.fontawesome.com/7b4ecf692a.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
     <title>Läbipaistev | Avaleht</title>
   </head>
   <body>
@@ -26,8 +28,7 @@
           <a href="#top">Avaleht</a>
           <a href="#teenused">Teenused</a>
           <a href="#hinnad">Hinnad</a>
-          <a href="#kontakt">Kontakt</a>
-          <a href="#meietood">Meie tööd</a>
+          <a href="#form">Küsi pakkumist</a>
           <a href="#KKK">KKK</a>
           <a href="#muudakeel" id="change-lang">EST</a>
         </div>
@@ -89,10 +90,10 @@
         </div>
       </div>
 
-      <div class="services">
+      <div class="services" id="teenused">
         <h2>Teenused</h2>
         <div class="service">
-          <img src="images/aknapuhastus.png" />
+          <img src="images/aknapuhastus.jpg" />
           <div class="text">
             <h2>Akende pesu</h2>
             <ul>
@@ -160,7 +161,7 @@
         </p>
       </div>
 
-      <div class="prices">
+      <div class="prices" id="hinnad">
         <h2>Hinnad</h2>
         <ol>
           <li>
@@ -215,13 +216,13 @@
           <li>
             <h3>Põhikoristus — Hind: 1 € / m² (min 50 €)</h3>
             <p>
-              ✅ Regulaarsete lepingute võimalus (nädalane, kahe-nädalane,
+              Regulaarsete lepingute võimalus (nädalane, kahe-nädalane,
               kuupõhine)<br />
-              ✅ Professionaalne varustus ja keskkonnasõbralikud
+              Professionaalne varustus ja keskkonnasõbralikud
               puhastusvahendid<br />
-              ✅ Teenus hõlmab treppe, trepikodasid ja koridore<br />
-              ✅ Täiendavad teenused tellimisel: akende pesu, sissepääsu
-              klaasid, liftide puhastus, sügavpuhastus
+              Teenus hõlmab treppe, trepikodasid ja koridore<br />
+              Täiendavad teenused tellimisel: akende pesu, sissepääsu klaasid,
+              liftide puhastus, sügavpuhastus
             </p>
           </li>
           <li>
@@ -251,13 +252,13 @@
       <div class="teenuspiirkond">
         <h2>Teenuspiirkond</h2>
         <p>
-          <b>Tallinnas</b> ja lähiümbruses.(Kaugematel objektidel lisandub
+          <b>Tallinnas</b> ja lähiümbruses (kaugematel objektidel lisandub
           transporditasu).
         </p>
       </div>
 
       <h2 style="margin-bottom: -30px">Küsi pakkumist</h2>
-      <div id="form">
+      <div id="form" ">
         <div
           class="left"
           style="display: flex; gap: 10px; flex-direction: column"
@@ -407,7 +408,7 @@
         </div>
       </div>
 
-      <div class="faq">
+      <div class="faq" id="KKK">
         <h2>KKK - Korduma kippuvad küsimused</h2>
         <p>
           <b>K:</b> Kuidas saan teenuse broneerida?<br />
@@ -486,9 +487,12 @@
       ></div>
       <footer>
         <div class="left">
-          <span>📞 +372 5336 6900</span><span>✉️ info@labipaistev.com</span>
+          <span>📞 +372 5336 6900</span><br><span>✉️ info@labipaistev.com</span>
         </div>
-        <div class="right"><i class="fa-brands fa-facebook"></i></div>
+        <div class="right">
+          <a href="https://www.facebook.com/share/16MhVLkxJu/?mibextid=wwXIfr"><img src="images/facebook.svg"></a>
+          <a href="https://www.instagram.com/labipaistev.ee?igsh=MWxua3R6cWRpdHQwZQ%3D%3D&utm_source=qr"><img src="images/instagram.svg"></a>
+        </div>
       </footer>
     </div>
   </body>
