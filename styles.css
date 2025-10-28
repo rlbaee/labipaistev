@@ -253,7 +253,8 @@ footer .right {
   gap: 1rem;
 }
 
-footer .right a {
+footer .right a,
+svg {
   width: 30px;
 }
 
